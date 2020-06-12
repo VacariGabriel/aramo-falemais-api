@@ -4,7 +4,7 @@ const { calculateTariff, getAllDDDs, getAllPlans } = require("./controller")
 const routes = Router();
 
 routes.post('/calculate-tariff', calculateTariff);   
-routes.get('/get-all-ddds', getAllDDDs);
-routes.get('/get-all-plans', getAllPlans)
+routes.get('/ddds', getAllDDDs);
+routes.get('/plans', getAllPlans)
 
 module.exports  = routes;
