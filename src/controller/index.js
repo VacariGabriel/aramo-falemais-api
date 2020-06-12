@@ -11,8 +11,8 @@ module.exports = {
             }
         })
         
-        if(!tariff){
-            return response.status(400).send({erro: "we haven't plans for your DDD"})
+        if(!tariff || !objPlan){
+            return response.status(400).send({ erro: "we haven't this plan" })
         }        
         
         let tariffs = {}
