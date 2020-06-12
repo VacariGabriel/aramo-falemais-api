@@ -10,7 +10,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
 - Heroku
 
 ## Como rodar o projeto 
-``` docker build -t aramo-falemais-api ```
+``` docker build -t aramo-falemais-api . ```
 
 
 ``` docker run -p 3000:3000 aramo-falemais-api ```
@@ -41,7 +41,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
         {
             "values": {
                 "withPlan": "0.00",
-                "withoutPlan: "38.00"
+                "withoutPlan": "38.00"
             }
         }    
     ```
@@ -66,7 +66,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
                 {
                     "name": "falemais30",
                     "freeMinutes":30,
-                    "description":"Lorem ipsum dolor sit amet,          consectetur adipiscing elit. Fusce nibh orci, faucibus a nisi a, interdum mollis elit. Vestibulum maximus eros in mi vestibulum lobortis. Nullam ac dolor velit. Nam ullamcorper lorem non hendrerit fringilla. Aenean orci lacus, volutpat id sem ac, consectetur tincidunt ante."
+                    "description":"Lorem ipsum dolor sit amet,         consectetur adipiscing elit. Fusce nibh orci, faucibus a nisi a, interdum mollis elit. Vestibulum maximus eros in mi vestibulum lobortis. Nullam ac dolor velit. Nam ullamcorper lorem non hendrerit fringilla. Aenean orci lacus, volutpat id sem ac, consectetur tincidunt ante."
                 }
             ]
         }
