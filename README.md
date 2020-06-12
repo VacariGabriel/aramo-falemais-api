@@ -1,7 +1,7 @@
 # aramo-falemais-api
 
 ## Objetivo ?
-Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de telefonia.
+Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de telefonia, também mostra os planos e ddds disponíveis.
 
 ## Tecnologias usadas ?
 - Nodejs
@@ -28,10 +28,12 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
 
     ```json 
         {
-            "source": "011",
-            "destination": "018",
-            "callTime": 20,
-            "plan": "falemais30"
+            "values": {
+                "source": "011",
+                "destination": "018",
+                "callTime": 20,
+                "plan": "falemais30"
+            }
         }
     ```
     

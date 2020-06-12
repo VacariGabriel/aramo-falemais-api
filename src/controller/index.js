@@ -2,7 +2,7 @@ const jsonPlans = require('../database/faleMais.json');
 
 module.exports = {
     calculateTariff (request, response) {
-        const { source, destination, callTime, plan } = request.body
+        const { source, destination, callTime, plan } = request.body.values;
         const [objPlan] = jsonPlans.plans.filter(objPlan => objPlan.name === plan)
 
         const [tariff] = jsonPlans.tariffs.filter(tariff => {
@@ -12,7 +12,7 @@ module.exports = {
         })
         
         if(!tariff || !objPlan){
-            return response.status(400).send({ erro: "we haven't this plan" })
+            return response.status(400).send({ erro: "We haven't this plan" })
         }        
         
         let tariffs = {}
