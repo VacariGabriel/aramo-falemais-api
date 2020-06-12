@@ -8,4 +8,5 @@ app.use(cors());
 app.use(express.json())
 app.use(routes);
 
-app.listen(3333);
+if(process.env.NODE_ENV !== 'test')
+    server.listen(3000);
