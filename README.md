@@ -1,13 +1,16 @@
 # aramo-falemais-api
 
 ## Objetivo ?
-Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de telefonia, também mostra os planos e ddds disponíveis.
+Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de telefonia, também mostrar os planos e ddds disponíveis.
 
 ## Tecnologias usadas ?
 - Nodejs
 - Express
 - Docker
 - Heroku
+
+## Algumas explicações
+Não usei nenhum banco de dados porque achei que seria "overengineering" para um projeto simples.
 
 ## Como rodar o projeto 
 ``` docker build -t aramo-falemais-api . ```
