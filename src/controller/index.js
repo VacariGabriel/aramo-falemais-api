@@ -12,7 +12,7 @@ module.exports = {
         })
         
         if(!tariff || !objPlan){
-            return response.status(400).send({ erro: "We haven't this plan" })
+            return response.status(400).send({ erro: "Ainda não temos esse plano" })
         }        
         
         let tariffs = {}
