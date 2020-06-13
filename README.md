@@ -32,7 +32,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
                 "source": "011",
                 "destination": "018",
                 "callTime": 20,
-                "plan": "falemais30"
+                "plan": "FaleMais 30"
             }
         }
     ```
@@ -41,7 +41,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
 
     ```json
         {
-            "values": {
+            "tariffs": {
                 "withPlan": "0.00",
                 "withoutPlan": "38.00"
             }
@@ -66,7 +66,7 @@ Esta API tem como objetivo auxiliar o frontend com o cálculo das tarifas de tel
         {
             "plans": [
                 {
-                    "name": "falemais30",
+                    "name": "FaleMais 30",
                     "freeMinutes":30,
                     "description":"Lorem ipsum dolor sit amet,         consectetur adipiscing elit. Fusce nibh orci, faucibus a nisi a, interdum mollis elit. Vestibulum maximus eros in mi vestibulum lobortis. Nullam ac dolor velit. Nam ullamcorper lorem non hendrerit fringilla. Aenean orci lacus, volutpat id sem ac, consectetur tincidunt ante."
                 }
