@@ -2,18 +2,15 @@
     "plans": [
         {
             "name": "FaleMais 30",
-            "freeMinutes":30,
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nibh orci, faucibus a nisi a, interdum mollis elit. Vestibulum maximus eros in mi vestibulum lobortis. Nullam ac dolor velit. Nam ullamcorper lorem non hendrerit fringilla. Aenean orci lacus, volutpat id sem ac, consectetur tincidunt ante."
+            "freeMinutes": 30,
         },
         {
             "name": "FaleMais 60",
-            "freeMinutes":60,
-            "description": "Aliquam in ante purus. Nam nec ultrices eros. Cras ornare varius lectus a euismod. Proin tincidunt leo eget leo placerat, sed scelerisque enim facilisis. Maecenas lacinia convallis dolor vel mattis. Nunc placerat nisi ut turpis commodo, a finibus orci commodo. Aliquam mi sem, molestie mollis odio aliquet, molestie imperdiet leo. "
+            "freeMinutes": 60,
         },
         {
             "name": "FaleMais 120",
-            "freeMinutes":120,
-            "description":"In tincidunt orci ipsum, id luctus arcu faucibus condimentum. Proin condimentum felis non velit consequat venenatis. Aenean sagittis elit in est consectetur, quis lobortis leo pellentesque. Duis viverra justo vitae arcu luctus sodales. Donec suscipit est ante, ac commodo mi dictum ut. "
+            "freeMinutes": 120,
         }
     ],
     "tariffs": [
