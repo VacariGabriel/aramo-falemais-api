@@ -2,15 +2,15 @@
     "plans": [
         {
             "name": "FaleMais 30",
-            "freeMinutes": 30,
+            "freeMinutes": 30
         },
         {
             "name": "FaleMais 60",
-            "freeMinutes": 60,
+            "freeMinutes": 60
         },
         {
             "name": "FaleMais 120",
-            "freeMinutes": 120,
+            "freeMinutes": 120
         }
     ],
     "tariffs": [
